@@ -3,7 +3,9 @@ import "./Home.css"
 function Home() {
     return(
         <div className = 'Home'>
-            <h1>Hello World!</h1>
+            <div className = 'Background container'>
+                <h2 className = 'text-center'> Nazwa </h2>
+            </div>
         </div>
     );
 }
