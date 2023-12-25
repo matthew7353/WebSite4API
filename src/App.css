@@ -4,10 +4,14 @@
     height: 700px;
     width: 100vw;
     background-size: cover;
-    background: linear-gradient(320deg, blue, green) no-repeat;
+    background: linear-gradient(320deg, blue, lightblue) no-repeat;
     position: absolute;
     top: 0;
     transform: skewY(-12deg);
     transform-origin: 0;
     z-index: -1;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
 }

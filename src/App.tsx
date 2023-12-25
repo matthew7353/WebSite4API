@@ -3,11 +3,11 @@ import Header from "./Header.tsx";
 import './App.css'
 
 function App() {
-    return <>
+    return <div className = 'body'>
         <div className = 'Background'/>
         <Header/>
         <Home/>
-    </>
+    </div>
 }
 
 export default App;

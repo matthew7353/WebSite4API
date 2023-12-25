@@ -2,13 +2,15 @@ import './Header.css'
 
 function Header(){
     return(
-        <div>
-            <ul>
-                <li>
-                    <a href='#'> Logo </a>
-                </li>
-            </ul>
-        </div>
+        <nav>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <button className="signup-button">Sign Up</button>
+        </nav>
     )
 }
 

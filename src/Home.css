@@ -1,20 +1,43 @@
 
 
-.Home {
-    height: 100vw;
-    width: 100%;
-    background-image: url("./assets/background.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+.grid-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
-.Background {
-    height: 700px;
-    width: 100vw;
-    background-size: cover;
-    background: linear-gradient(320deg, blue, green) no-repeat;
-    position: absolute;
-    top: 0;
-    transform: skewY(-12deg);
-    transform-origin: 0;
+.text {
+    padding: 40px;
+    color: white;
+    max-width: 500px;
+    text-align: center;
+}
+
+.text2 {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    max-width: 25vw;
+    background: rgba(0,0,0,0.1);
+}
+
+.preview {
+    height: 600px;
+    width: 600px;
+    background: rgba(0,0,0,0.5);
+}
+
+.title {
+    text-align: center;
+    padding: 8%;
+    background: linear-gradient(320deg, blue, lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
