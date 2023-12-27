@@ -1,5 +1,7 @@
-import Home from './Home.tsx'
-import Header from "./Header.tsx";
+import Home from './components/Home.tsx'
+import Header from "./components/Header.tsx";
+import Functions from "./components/Functions.tsx";
+import Libraries from "./components/libraries.tsx";
 import './App.css'
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
         <div className = 'Background'/>
         <Header/>
         <Home/>
+        <Functions/>
+        <Libraries/>
     </div>
 }
 

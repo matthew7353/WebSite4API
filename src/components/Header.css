@@ -11,11 +11,20 @@ nav {
     display: flex;
 }
 
+.top {
+    background: white;
+
+}
+
 nav a {
     color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
+}
+
+.logo {
+    font-size: 30px;
 }
 
 .signup-button {
